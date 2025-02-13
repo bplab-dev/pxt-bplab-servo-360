@@ -2,8 +2,7 @@
     "name": "Servo 360 - bplab",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
