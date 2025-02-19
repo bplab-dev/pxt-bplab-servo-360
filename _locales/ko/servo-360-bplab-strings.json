@@ -5,5 +5,5 @@
   "servo360.spinOtherWay|block": "핀 %pin 모터를 반시계방향 회전",
   "servo360.turnOffMotor|block": "핀 %pin 모터를 정지",
   "servo360|block": "360도 서보모터",
-  "{id:category}Servo360": "360도 서보모터"
+  "{id:category}Servo360": "서보모터(360도)"
 }
