@@ -1,0 +1,15 @@
+{
+  "servo360": "Servo 360",
+  "servo360.spinOneWay": "Spins the motor in one direction at full speed",
+  "servo360.spinOneWayWithSpeed": "Spins the motor in one direction, with a speed from 0 to 100",
+  "servo360.spinOneWayWithSpeed|param|pin": "Which pin the motor is on",
+  "servo360.spinOneWayWithSpeed|param|speed": "Speed from 0 to 100",
+  "servo360.spinOneWay|param|pin": "Which pin the motor is on",
+  "servo360.spinOtherWay": "Spins the motor in other direction at full speed",
+  "servo360.spinOtherWayWithSpeed": "Spins the motor in the other direction, with a speed from 0 to 100",
+  "servo360.spinOtherWayWithSpeed|param|pin": "Which pin the motor is on",
+  "servo360.spinOtherWayWithSpeed|param|speed": "Speed from 0 to 100",
+  "servo360.spinOtherWay|param|pin": "Which pin the motor is on",
+  "servo360.turnOffMotor": "Turns off the motor at this pin",
+  "servo360.turnOffMotor|param|pin": "Which pin the motor is on"
+}

@@ -8,9 +8,7 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md",
-        "_locales/en.json",
-        "_locales/ko.json"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +20,6 @@
     "supportedTargets": [
         "microbit"
     ],
+    "supportedLocales": ["en", "ko"],
     "preferredEditor": "tsprj"
 }

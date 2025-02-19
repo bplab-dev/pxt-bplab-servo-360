@@ -1,0 +1,9 @@
+{
+  "servo360.spinOneWayWithSpeed|block": "spin one way pin %pin | with speed %speed",
+  "servo360.spinOneWay|block": "spin one way pin %pin",
+  "servo360.spinOtherWayWithSpeed|block": "spin other way pin %pin | with speed %speed",
+  "servo360.spinOtherWay|block": "spin other way pin %pin",
+  "servo360.turnOffMotor|block": "turn off motor at pin %pin",
+  "servo360|block": "Servo 360",
+  "{id:category}Servo360": "Servo360"
+}
