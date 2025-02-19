@@ -20,6 +20,9 @@
     "supportedTargets": [
         "microbit"
     ],
-    "supportedLocales": ["en", "ko"],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "supportedLocales": [
+        "en",
+        "ko"
+    ]
 }
