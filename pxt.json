@@ -9,8 +9,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "locales/en.json",
-        "locales/ko.json"
+        "_locales/en.json",
+        "_locales/ko.json"
     ],
     "testFiles": [
         "test.ts"
