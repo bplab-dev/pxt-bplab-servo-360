@@ -1,15 +1,15 @@
 {
   "servo360": "360도 서보모터",
-  "servo360.spinOneWay": "모터를 시계 방향으로 회전시킵니다",
-  "servo360.spinOneWayWithSpeed": "Spins the motor in one direction, with a speed from 0 to 100",
-  "servo360.spinOneWayWithSpeed|param|pin": "Which pin the motor is on",
-  "servo360.spinOneWayWithSpeed|param|speed": "Speed from 0 to 100",
-  "servo360.spinOneWay|param|pin": "Which pin the motor is on",
-  "servo360.spinOtherWay": "Spins the motor in other direction at full speed",
-  "servo360.spinOtherWayWithSpeed": "Spins the motor in the other direction, with a speed from 0 to 100",
-  "servo360.spinOtherWayWithSpeed|param|pin": "Which pin the motor is on",
-  "servo360.spinOtherWayWithSpeed|param|speed": "Speed from 0 to 100",
-  "servo360.spinOtherWay|param|pin": "Which pin the motor is on",
-  "servo360.turnOffMotor": "Turns off the motor at this pin",
-  "servo360.turnOffMotor|param|pin": "Which pin the motor is on"
+  "servo360.spinOneWay": "모터를 시계 방향 회전시킵니다",
+  "servo360.spinOneWayWithSpeed": "모터를 설정된 속력으로 시계 방향 회전시킵니다",
+  "servo360.spinOneWayWithSpeed|param|pin": "모터 연결 핀",
+  "servo360.spinOneWayWithSpeed|param|speed": "속력",
+  "servo360.spinOneWay|param|pin": "모터 연결 핀",
+  "servo360.spinOtherWay": "모터를 반시계 방향 회전시킵니다",
+  "servo360.spinOtherWayWithSpeed": "모터를 설정된 속력으로 반시계 방향 회전시킵니다",
+  "servo360.spinOtherWayWithSpeed|param|pin": "모터 연결 핀",
+  "servo360.spinOtherWayWithSpeed|param|speed": "속력",
+  "servo360.spinOtherWay|param|pin": "모터 연결 핀",
+  "servo360.turnOffMotor": "모터를 정지시킵니다",
+  "servo360.turnOffMotor|param|pin": "모터 연결 핀"
 }
