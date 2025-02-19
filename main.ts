@@ -19,7 +19,7 @@ namespace servo360 {
     */
     //% blockId=spinOtherWay weight=80
     //% block="spin other way pin %pin"
-    export function spinOtherWay(pin = AnalogPin.P2): void {
+    export function spinOtherWay(pin = AnalogPin.P1): void {
         pins.servoWritePin(pin, 0)
     }
 
@@ -44,7 +44,7 @@ namespace servo360 {
     //% blockId=spinOtherWayWithSpeed weight=40
     //% block="spin other way pin %pin | with speed %speed"
     //% speed.min=0 speed.max=100
-    export function spinOtherWayWithSpeed(pin = AnalogPin.P2, speed = 50): void {
+    export function spinOtherWayWithSpeed(pin = AnalogPin.P1, speed = 50): void {
         let spin = 90 - (speed * 90) / 100
         pins.servoWritePin(pin, spin)
     }
@@ -55,7 +55,7 @@ namespace servo360 {
     */
     //% blockId=turnOffMotor weight=20
     //% block="turn off motor at pin %pin"
-    export function turnOffMotor(pin = DigitalPin.P1): void {
+    export function turnOffMotor(pin = AnalogPin.P1): void {
         pins.digitalWritePin(pin, 0)
     }
 }
