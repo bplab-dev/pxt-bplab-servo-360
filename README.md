@@ -11,6 +11,7 @@ This extension allows you to control a 360-degree continuous rotation servo moto
 - Simple blocks for motor control in both directions
 - Ability to turn off motor to save power
 - Can be registered as a MakeCode extension for easy use
+- Support for Korean
 
 ## Blocks
 
