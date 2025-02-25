@@ -8,19 +8,19 @@ This extension allows you to control a 360-degree continuous rotation servo moto
 
 This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **bplab-dev/pxt-bplab-servo-360** and import
+- open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+- click on **New Project**
+- click on **Extensions** under the gearwheel menu
+- search for **bplab-dev/pxt-bplab-servo-360** and import
 
 ## 🚀 Features
 
-* Easy control of 360-degree continuous rotation servo motors
-* Support for both full-speed and variable-speed rotation
-* Simple blocks for motor control in both directions
-* Ability to turn off motor to save power
-* Can be registered as a MakeCode extension for easy use
-* Support for Korean
+- Easy control of 360-degree continuous rotation servo motors
+- Support for both full-speed and variable-speed rotation
+- Simple blocks for motor control in both directions
+- Ability to turn off motor to save power
+- Can be registered as a MakeCode extension for easy use
+- Support for Korean
 
 ## Blocks
 
@@ -36,11 +36,11 @@ This repository can be added as an **extension** in MakeCode.
 
 ### 1. Spin One Way Block
 
-* 🔹 Description
-  * Spins the servo motor in one direction at full speed
-  * Default pin is P1
+- 🔹 Description
+  - Spins the servo motor in one direction at full speed
+  - Default pin is P1
 
-* ✅ Usage example
+- ✅ Usage example
 
   ```blocks
   // Spin motor at full speed
@@ -49,11 +49,11 @@ This repository can be added as an **extension** in MakeCode.
 
 ### 2. Spin Other Way Block
 
-* 🔹 Description
-  * Spins the servo motor in the opposite direction at full speed
-  * Default pin is P1
+- 🔹 Description
+  - Spins the servo motor in the opposite direction at full speed
+  - Default pin is P1
 
-* ✅ Usage example
+- ✅ Usage example
 
   ```blocks
   // Spin motor in opposite direction
@@ -62,12 +62,12 @@ This repository can be added as an **extension** in MakeCode.
 
 ### 3. Spin One Way With Speed Block
 
-* 🔹 Description
-  * Spins the motor in one direction with variable speed
-  * Speed range: 0 to 100
-  * Default pin is P1, default speed is 50
+- 🔹 Description
+  - Spins the motor in one direction with variable speed
+  - Speed range: 0 to 100
+  - Default pin is P1, default speed is 50
 
-* ✅ Usage example
+- ✅ Usage example
 
   ```blocks
   // Spin at 75% speed
@@ -76,12 +76,12 @@ This repository can be added as an **extension** in MakeCode.
 
 ### 4. Spin Other Way With Speed Block
 
-* 🔹 Description
-  * Spins the motor in the opposite direction with variable speed
-  * Speed range: 0 to 100
-  * Default pin is P1, default speed is 50
+- 🔹 Description
+  - Spins the motor in the opposite direction with variable speed
+  - Speed range: 0 to 100
+  - Default pin is P1, default speed is 50
 
-* ✅ Usage example
+- ✅ Usage example
 
   ```blocks
   // Spin opposite way at 25% speed
@@ -90,11 +90,11 @@ This repository can be added as an **extension** in MakeCode.
 
 ### 5. Turn Off Motor Block
 
-* 🔹 Description
-  * Turns off the motor at the specified pin
-  * Default pin is P1
+- 🔹 Description
+  - Turns off the motor at the specified pin
+  - Default pin is P1
 
-* ✅ Usage example
+- ✅ Usage example
 
   ```blocks
   // Turn off the motor
@@ -113,12 +113,12 @@ We are also leading the way in developing and distributing coding education kits
 
 Visit our websites:
 
-* Korea: [https://bplab.kr](https://bplab.kr)
-* Global: [https://bplab-us.com](https://bplab-us.com)
-* Japan: [https://bplab-jp.com](https://bplab-jp.com)
+- Korea: [https://bplab.kr](https://bplab.kr)
+- Global: [https://bplab-us.com](https://bplab-us.com)
+- Japan: [https://bplab-jp.com](https://bplab-jp.com)
 
 ## 📍 Supported targets
 
-* for PXT/microbit
+- for PXT/microbit
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
