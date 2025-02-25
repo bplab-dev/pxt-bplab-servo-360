@@ -4,14 +4,23 @@
 
 This extension allows you to control a 360-degree continuous rotation servo motor with the micro:bit.
 
+## Use as Extension
+
+This repository can be added as an **extension** in MakeCode.
+
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **bplab-dev/pxt-bplab-servo-360** and import
+
 ## 🚀 Features
 
-- Easy control of 360-degree continuous rotation servo motors
-- Support for both full-speed and variable-speed rotation
-- Simple blocks for motor control in both directions
-- Ability to turn off motor to save power
-- Can be registered as a MakeCode extension for easy use
-- Support for Korean
+* Easy control of 360-degree continuous rotation servo motors
+* Support for both full-speed and variable-speed rotation
+* Simple blocks for motor control in both directions
+* Ability to turn off motor to save power
+* Can be registered as a MakeCode extension for easy use
+* Support for Korean
 
 ## Blocks
 
@@ -27,84 +36,69 @@ This extension allows you to control a 360-degree continuous rotation servo moto
 
 ### 1. Spin One Way Block
 
-```typescript
-//% blockId='spinOneWay' block="spin one way pin %pin"
-export function spinOneWay(pin = AnalogPin.P1): void
-```
+* 🔹 Description
+  * Spins the servo motor in one direction at full speed
+  * Default pin is P1
 
-- 🔹 Description
-  - Spins the servo motor in one direction at full speed
-  - Default pin is P1
+* ✅ Usage example
 
-- ✅ Usage example
-  ```typescript
-  servo360.spinOneWay(AnalogPin.P1) // Spin motor at full speed
+  ```blocks
+  // Spin motor at full speed
+  servo360.spinOneWay(AnalogPin.P1)
   ```
 
 ### 2. Spin Other Way Block
 
-```typescript
-//% blockId='spinOtherWay' block="spin other way pin %pin"
-export function spinOtherWay(pin = AnalogPin.P1): void
-```
+* 🔹 Description
+  * Spins the servo motor in the opposite direction at full speed
+  * Default pin is P1
 
-- 🔹 Description
-  - Spins the servo motor in the opposite direction at full speed
-  - Default pin is P1
+* ✅ Usage example
 
-- ✅ Usage example
-  ```typescript
-  servo360.spinOtherWay(AnalogPin.P1) // Spin motor in opposite direction
+  ```blocks
+  // Spin motor in opposite direction
+  servo360.spinOtherWay(AnalogPin.P1)
   ```
 
 ### 3. Spin One Way With Speed Block
 
-```typescript
-//% blockId='spinOneWayWithSpeed' block="spin one way pin %pin | with speed %speed"
-export function spinOneWayWithSpeed(pin = AnalogPin.P1, speed = 50): void
-```
+* 🔹 Description
+  * Spins the motor in one direction with variable speed
+  * Speed range: 0 to 100
+  * Default pin is P1, default speed is 50
 
-- 🔹 Description
-  - Spins the motor in one direction with variable speed
-  - Speed range: 0 to 100
-  - Default pin is P1, default speed is 50
+* ✅ Usage example
 
-- ✅ Usage example
-  ```typescript
-  servo360.spinOneWayWithSpeed(AnalogPin.P1, 75) // Spin at 75% speed
+  ```blocks
+  // Spin at 75% speed
+  servo360.spinOneWayWithSpeed(AnalogPin.P1, 75)
   ```
 
 ### 4. Spin Other Way With Speed Block
 
-```typescript
-//% blockId='spinOtherWayWithSpeed' block="spin other way pin %pin | with speed %speed"
-export function spinOtherWayWithSpeed(pin = AnalogPin.P1, speed = 50): void
-```
+* 🔹 Description
+  * Spins the motor in the opposite direction with variable speed
+  * Speed range: 0 to 100
+  * Default pin is P1, default speed is 50
 
-- 🔹 Description
-  - Spins the motor in the opposite direction with variable speed
-  - Speed range: 0 to 100
-  - Default pin is P1, default speed is 50
+* ✅ Usage example
 
-- ✅ Usage example
-  ```typescript
-  servo360.spinOtherWayWithSpeed(AnalogPin.P1, 25) // Spin opposite way at 25% speed
+  ```blocks
+  // Spin opposite way at 25% speed
+  servo360.spinOtherWayWithSpeed(AnalogPin.P1, 25)
   ```
 
 ### 5. Turn Off Motor Block
 
-```typescript
-//% blockId='turnOffMotor' block="turn off motor at pin %pin"
-export function turnOffMotor(pin = AnalogPin.P1): void
-```
+* 🔹 Description
+  * Turns off the motor at the specified pin
+  * Default pin is P1
 
-- 🔹 Description
-  - Turns off the motor at the specified pin
-  - Default pin is P1
+* ✅ Usage example
 
-- ✅ Usage example
-  ```typescript
-  servo360.turnOffMotor(AnalogPin.P1) // Turn off the motor
+  ```blocks
+  // Turn off the motor
+  servo360.turnOffMotor(AnalogPin.P1)
   ```
 
 ## 📜 License
@@ -119,32 +113,11 @@ We are also leading the way in developing and distributing coding education kits
 
 Visit our websites:
 
-- Korea: https://bplab.kr
-- Global: https://bplab-us.com
-- Japan: https://bplab-jp.com
+* Korea: [https://bplab.kr](https://bplab.kr)
+* Global: [https://bplab-us.com](https://bplab-us.com)
+* Japan: [https://bplab-jp.com](https://bplab-jp.com)
 
----
-
-> Open this page at [https://bplab-dev.github.io/pxt-bplab-servo-360/](https://bplab-dev.github.io/pxt-bplab-servo-360/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/bplab-dev/pxt-bplab-servo-360** and import
-
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/bplab-dev/pxt-bplab-servo-360** and click import
-
-#### Metadata (used for search, rendering)
+## 📍 Supported targets
 
 * for PXT/microbit
 
