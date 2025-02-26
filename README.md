@@ -43,8 +43,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  // Spin motor at full speed
-  servo360.spinOneWay(AnalogPin.P1)
+  servo360.spinOneWay(servo360.ServoPin.P1)
   ```
 
 ### 2. Spin Other Way Block
@@ -56,8 +55,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  // Spin motor in opposite direction
-  servo360.spinOtherWay(AnalogPin.P1)
+  servo360.spinOtherWay(servo360.ServoPin.P1)
   ```
 
 ### 3. Spin One Way With Speed Block
@@ -70,8 +68,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  // Spin at 75% speed
-  servo360.spinOneWayWithSpeed(AnalogPin.P1, 75)
+  servo360.spinOneWayWithSpeed(servo360.ServoPin.P1, 75)
   ```
 
 ### 4. Spin Other Way With Speed Block
@@ -84,8 +81,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  // Spin opposite way at 25% speed
-  servo360.spinOtherWayWithSpeed(AnalogPin.P1, 25)
+  servo360.spinOtherWayWithSpeed(servo360.ServoPin.P1, 25)
   ```
 
 ### 5. Turn Off Motor Block
@@ -97,8 +93,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  // Turn off the motor
-  servo360.turnOffMotor(AnalogPin.P1)
+  servo360.turnOffMotor(servo360.ServoPin.P1)
   ```
 
 ## 📜 License
