@@ -1,9 +1,12 @@
 {
-  "servo360.spinOneWayWithSpeed|block": "spin one way pin %pin | with speed %speed",
-  "servo360.spinOneWay|block": "spin one way pin %pin",
-  "servo360.spinOtherWayWithSpeed|block": "spin other way pin %pin | with speed %speed",
-  "servo360.spinOtherWay|block": "spin other way pin %pin",
-  "servo360.turnOffMotor|block": "turn off motor at pin %pin",
+  "servo360.ServoPin.P0|block": "P0",
+  "servo360.ServoPin.P1|block": "P1",
+  "servo360.ServoPin.P2|block": "P2",
+  "servo360.spinOneWayWithSpeed|block": "Spin one way pin %pin | with speed %speed",
+  "servo360.spinOneWay|block": "Spin one way pin %pin",
+  "servo360.spinOtherWayWithSpeed|block": "Spin other way pin %pin | with speed %speed",
+  "servo360.spinOtherWay|block": "Spin other way pin %pin",
+  "servo360.turnOffMotor|block": "Turn off motor at pin %pin",
   "servo360|block": "Servo 360",
-  "{id:category}Servo360": "Servo360"
+  "{id:category}Servo360": "Servo 360"
 }

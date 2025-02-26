@@ -1,5 +1,6 @@
 {
   "servo360": "360도 서보모터",
+  "servo360.ServoPin": "Servo 360 PWM 핀",
   "servo360.spinOneWay": "모터를 시계 방향 회전시킵니다",
   "servo360.spinOneWayWithSpeed": "모터를 설정된 속력으로 시계 방향 회전시킵니다",
   "servo360.spinOneWayWithSpeed|param|pin": "모터 연결 핀",

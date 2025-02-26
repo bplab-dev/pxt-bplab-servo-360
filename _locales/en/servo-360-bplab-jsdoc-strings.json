@@ -1,5 +1,6 @@
 {
   "servo360": "Servo 360",
+  "servo360.ServoPin": "Servo 360 PWM pin",
   "servo360.spinOneWay": "Spins the motor in one direction at full speed",
   "servo360.spinOneWayWithSpeed": "Spins the motor in one direction, with a speed from 0 to 100",
   "servo360.spinOneWayWithSpeed|param|pin": "Which pin the motor is on",

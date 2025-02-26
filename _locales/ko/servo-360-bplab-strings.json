@@ -1,9 +1,12 @@
 {
+  "servo360.ServoPin.P0|block": "P0",
+  "servo360.ServoPin.P1|block": "P1",
+  "servo360.ServoPin.P2|block": "P2",
   "servo360.spinOneWayWithSpeed|block": "핀 %pin 모터를 속력 %speed 으로 시계방향 회전",
   "servo360.spinOneWay|block": "핀 %pin 모터를 시계방향 회전",
   "servo360.spinOtherWayWithSpeed|block": "핀 %pin 모터를 속력 %speed 으로 반시계방향 회전",
   "servo360.spinOtherWay|block": "핀 %pin 모터를 반시계방향 회전",
   "servo360.turnOffMotor|block": "핀 %pin 모터를 정지",
-  "servo360|block": "360도 서보모터",
+  "servo360|block": "서보모터(360도)",
   "{id:category}Servo360": "서보모터(360도)"
 }
