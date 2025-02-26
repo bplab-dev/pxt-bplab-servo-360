@@ -1,5 +1,5 @@
 // Test code for Servo 360 library
-let testPin = AnalogPin.P1
+let testPin = servo360.ServoPin.P1
 
 // Test Case 1: Basic Rotation Tests
 // Purpose: Test basic motor rotation in both directions
@@ -47,7 +47,7 @@ basic.forever(function () {
     // Expected: Motor should work on multiple pins
     // Pass criteria: Motor responds on each tested pin
     basic.showString("T3")
-    let testPins = [AnalogPin.P1, AnalogPin.P2]
+    let testPins = [servo360.ServoPin.P1, servo360.ServoPin.P2]
 
     for (let pin of testPins) {
         // Test both directions

@@ -4,12 +4,25 @@
 //% color=#2b569b weight=1 icon="\uf0ad" block="Servo 360"
 namespace servo360 {
     /**
+     * Servo 360 PWM pin
+     */
+    export enum ServoPin {
+        //% block="P0"
+        P0 = AnalogPin.P0,
+        //% block="P1"
+        P1 = AnalogPin.P1,
+        //% block="P2"
+        P2 = AnalogPin.P2
+    }
+
+    /**
     * Spins the motor in one direction at full speed
     * @param pin Which pin the motor is on
     */
     //% blockId=spinOneWay weight=100
-    //% block="spin one way pin %pin"
-    export function spinOneWay(pin = AnalogPin.P1): void {
+    //% block="Spin one way pin %pin"
+    //% pin.fieldEditor="gridpicker"
+    export function spinOneWay(pin = ServoPin.P1): void {
         pins.servoWritePin(pin, 180)
     }
 
@@ -18,8 +31,9 @@ namespace servo360 {
     * @param pin Which pin the motor is on
     */
     //% blockId=spinOtherWay weight=80
-    //% block="spin other way pin %pin"
-    export function spinOtherWay(pin = AnalogPin.P1): void {
+    //% block="Spin other way pin %pin"
+    //% pin.fieldEditor="gridpicker"
+    export function spinOtherWay(pin = ServoPin.P1): void {
         pins.servoWritePin(pin, 0)
     }
 
@@ -29,9 +43,10 @@ namespace servo360 {
     * @param speed Speed from 0 to 100
     */
     //% blockId=spinOneWayWithSpeed weight=60
-    //% block="spin one way pin %pin | with speed %speed"
+    //% block="Spin one way pin %pin | with speed %speed"
     //% speed.min=0 speed.max=100
-    export function spinOneWayWithSpeed(pin = AnalogPin.P1, speed = 50): void {
+    //% pin.fieldEditor="gridpicker"
+    export function spinOneWayWithSpeed(pin = ServoPin.P1, speed = 50): void {
         let spin = (speed * 90) / 100 + 90
         pins.servoWritePin(pin, spin)
     }
@@ -42,9 +57,10 @@ namespace servo360 {
     * @param speed Speed from 0 to 100
     */
     //% blockId=spinOtherWayWithSpeed weight=40
-    //% block="spin other way pin %pin | with speed %speed"
+    //% block="Spin other way pin %pin | with speed %speed"
     //% speed.min=0 speed.max=100
-    export function spinOtherWayWithSpeed(pin = AnalogPin.P1, speed = 50): void {
+    //% pin.fieldEditor="gridpicker"
+    export function spinOtherWayWithSpeed(pin = ServoPin.P1, speed = 50): void {
         let spin = 90 - (speed * 90) / 100
         pins.servoWritePin(pin, spin)
     }
@@ -54,8 +70,9 @@ namespace servo360 {
     * @param pin Which pin the motor is on
     */
     //% blockId=turnOffMotor weight=20
-    //% block="turn off motor at pin %pin"
-    export function turnOffMotor(pin = AnalogPin.P1): void {
+    //% block="Turn off motor at pin %pin"
+    //% pin.fieldEditor="gridpicker"
+    export function turnOffMotor(pin = ServoPin.P1): void {
         pins.digitalWritePin(pin, 0)
     }
 }
