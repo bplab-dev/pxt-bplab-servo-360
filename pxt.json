@@ -1,7 +1,7 @@
 {
     "name": "servo-360-bplab",
     "version": "0.0.12",
-    "description": "",
+    "description": "This extension is manufactured by BPLab to allow you to control the 360-degree servomotor with micro:bit.",
     "dependencies": {
         "core": "*"
     },
