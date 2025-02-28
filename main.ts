@@ -1,7 +1,7 @@
 /**
  * Servo 360
  */
-//% color=#2b569b weight=1 icon="\uf0ad" block="Servo 360"
+//% color=#03aa74 weight=1 icon="\uf2f1" block="Servo 360"
 namespace servo360 {
     /**
      * Servo 360 PWM pin
